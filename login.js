@@ -14,7 +14,7 @@ $(function(){
         }
     });
     $gettw.click(function(){
-        $("#tw").removeAttr("disabled",);
+        $("#tw").removeAttr("disabled");
         $("#gettw").attr("disabled","disabled");
         $("#twtip").html("");
         var time=50;
